@@ -1,0 +1,34 @@
+.trend_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: 30px;
+}
+
+.trend_item {
+  width: 100%;
+  max-width: 250px;
+  background-color: black;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 500ms;
+}
+
+.trend_item:hover {
+  transform: scale(1.1);
+}
+
+.trend_poster {
+  width: 250px;
+  height: 350px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+.trend_name {
+  color: azure;
+  text-align: center;
+}
