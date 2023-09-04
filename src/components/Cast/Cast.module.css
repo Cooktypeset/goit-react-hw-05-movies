@@ -1,0 +1,25 @@
+.cast_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 30px;
+}
+
+.cast_item{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: large;
+}
+
+.cast_photo {
+    height: 300px;
+    border-radius: 4%;
+}
+
+/* 
+
