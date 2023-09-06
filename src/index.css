@@ -1,5 +1,5 @@
-/* @import-normalize; bring in normalize.css styles */
-bring in normalize.css styles */ html {
+@import-normalize; /* bring in normalize.css styles */
+html {
   box-sizing: border-box;
   width: 100vw;
   overflow-x: hidden;
